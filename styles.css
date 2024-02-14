@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-bar-container {
+    display: flex;
+    flex-basis: 100vh;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.nav-bar {
+    background-color: burlywood;
+}
+
+.nav-bar-container > li {
+    height: 40px;
+    width: 60px;;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 7px;
+    padding-top: 10px;
+}
+
+.nav-bar-container a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+.splash-card {
+    width: auto;
+    height: 400px;
+    font-family: "Courgette", cursive;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 200px;
+    border: 10px solid brown;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-card {
+    height: 400px;
+    width: 400px;
+    background-color: burlywood;
+    border-radius: 25px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.price-card > * {
+    text-align: center;
+
+}
+
+.plan {
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.period {
+    margin: 10px;
+}
+
+.features {
+    width: 350px;
+    margin-left: 25px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-size: 1rem;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+  
+footer {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    background-color: burlywood;
+    padding-top: 10px;
+}
+
+@media (max-width: 1000px) {
+
+    .price-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .splash-card {
+        font-size: 3rem;
+        height: 400px;
+        padding-top: 300px;
+    }
+}
